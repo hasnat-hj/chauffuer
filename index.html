@@ -1,0 +1,158 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./Style.css" />
+    <script src="loadComponents.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header></header>
+
+    <main>
+      <section class="bg_lightblue container-fluid">
+        <div class="container text-white">
+          <div class="row py-5">
+            <div
+              class="col-lg-6 py-5 d-flex flex-column gap-1 justify-content-center"
+            >
+              <h2 class="fw-bold">Welcome Back to Chauffeur Cars</h2>
+              <h2>Travel with No false waiting times.</h2>
+              <h2>If no cars are available why be told differentlys</h2>
+              <div class="d-flex justify-content-center gap-3">
+                <a href="/" tabindex="0"
+                  ><img
+                    class=""
+                    style="width: 150px; height: 50px"
+                    src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                    alt="bn45"
+                /></a>
+                <a href="/" tabindex="0"
+                  ><img
+                    class=""
+                    style="width: 170px; height: 50px"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png"
+                    alt="bn45"
+                /></a>
+              </div>
+            </div>
+            <div class="col-lg-6 py-5">
+              <div class="position-relative show_bg_2 rounded-4">
+                <div style="display: flex; justify-content: center" class="">
+                  <img
+                    class="rounded-4"
+                    style="object-fit: cover; max-width: 200px"
+                    src="./assets/middle.jpeg"
+                    alt=""
+                  />
+                  <img
+                    class="rounded-4"
+                    style="
+                      object-fit: cover;
+                      max-width: 200px;
+                      position: absolute;
+                      top: 0px;
+                      right: 0px;
+                    "
+                    src="./assets/right.jpeg"
+                    alt=""
+                  />
+                  <img
+                    class="rounded-4"
+                    style="
+                      object-fit: cover;
+                      max-width: 200px;
+                      position: absolute;
+                      bottom: 0px;
+                      left: 0px;
+                    "
+                    src="./assets/left.jpeg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-white container-fluid">
+        <div class="container">
+          <div class="row py-5">
+            <div class="col-lg-6 py-5">
+              <img
+                style="object-fit: cover; width: 100%"
+                src="./assets/Rectangle 6.png"
+                alt=""
+              />
+            </div>
+            <div class="col-lg-6 py-5">
+              <h2 class="fw-bold">About us</h2>
+              <p class="fs-5">
+                We understand the needs of running a modern day cab office, all
+                of us here have worked in the cab industry and have a wealth of
+                experience not just with IT but all of the day-to-day aspects of
+                running a busy cab company.
+              </p>
+              <p class="fs-5 mt-4">
+                We're very proud of the fact that we're "Built by a Cab Company,
+                For a Cab Company"... but what does that really mean? Firstly,
+                all the founders, directors and shareholders of CabDespatch have
+                worked extensively in various roles in the cab industry so we
+                really understand the industry.
+              </p>
+              <p class="fs-5 mt-4">
+                Be it drivers complaining of feeding, customers complaining of
+                being overcharged or customers complaining about rude staff,
+                we've seen it all! Sharing office space with one of East Kent's
+                busiest circuits really ensures that we're aware of any changes
+                in the industry and keep up-to-date with all the goings on that
+                affect you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script>
+      $(".main_slid").slick({
+        dots: false,
+        arrows: true,
+        prevArrow: ".prev_btn",
+        nextArrow: ".next_btn",
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      });
+    </script>
+  </body>
+</html>
